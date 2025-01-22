@@ -1,0 +1,34 @@
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .card {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .list-group-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.3s;
+  }
+  
+  .list-group-item.completed {
+    text-decoration: line-through;
+    color: gray;
+    background-color: #e9ecef;
+  }
+  
+  .list-group-item.high {
+    border-left: 5px solid #dc3545;
+  }
+  
+  .list-group-item.medium {
+    border-left: 5px solid #ffc107;
+  }
+  
+  .list-group-item.low {
+    border-left: 5px solid #28a745;
+  }
+  
